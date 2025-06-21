@@ -30,13 +30,17 @@ Sentiment charts
 ### 💻 Quick Start
 bash
 ### 1. Install requirements
+
 pip install spacy pandas textblob matplotlib seaborn
+
 python -m spacy download en_core_web_sm
 
 ###  2. Run the analyzer
 
 python amazon_reviews_nlp.py
+
 📊 Sample Output
+
 https://sample_charts.png
 
 ### 🧠 Key Features
