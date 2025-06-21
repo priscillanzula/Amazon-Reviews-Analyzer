@@ -1,67 +1,56 @@
-# 🧠 Mastering the AI Toolkit – AI Tools & Applications Group Assignment
+Amazon Reviews NLP Analyzer
 
-This repository contains our submission for the **AI Tools & Applications** assignment under the theme **“Mastering the AI Toolkit.”** The project is divided into three main parts:
+### 📌 Overview
 
-1. **Theoretical Understanding** of AI tools and frameworks.
-2. **Practical Implementation** of classical machine learning, deep learning, and NLP tasks using real datasets.
-3. **Ethical Reflection & AI Debugging**, focusing on responsible AI practices and code optimization.
+A simple Python tool that analyzes Amazon product reviews to:
 
-We used a variety of powerful AI frameworks — TensorFlow, PyTorch, Scikit-learn, and spaCy — to showcase our understanding and practical skills.
+🔍 Extract products and brands mentioned
 
----
+😊😠 Detect positive/negative sentiment
 
-## Group Members & Roles
+📊 Generate visual reports
 
-| Name         | Role                                                                 |
-|--------------|----------------------------------------------------------------------|
-| **CipheredBits (Leader)** | 📌 Group leader, ethical reflection, debugging, final report writing, code review, GitHub management, presentation assembly. |
-| **YewandeMorris**       | 📘 Theoretical understanding (all theory questions + comparative analysis). |
-| **Priscillanzula**         | 🔊 NLP with spaCy – NER and sentiment analysis on Amazon Reviews. |
-| **Doreenmongina**        | 🌸 Classical machine learning with Scikit-learn – Iris species classification. |
-| **golibemartha**          | 🧠 CNN implementation with TensorFlow – MNIST handwritten digit recognition. |
+### 🛠️ How It Works
+Input: Takes Amazon reviews (or uses sample data)
 
----
+- Processing:
 
-## 📌 Assignment Overview
+Identifies products/brands (iPhone, Apple, etc.)
 
-This assignment evaluates our ability to apply, compare, and ethically reflect on various AI tools. Deliverables include:
+Checks if review is positive/negative
 
-- 🧾 A well-commented, functional codebase.
-- 📄 A comprehensive report (PDF).
-- 🎥 A 3-minute presentation video.
+- Output:
 
-All outputs, visuals, and documentation are contained in this repository.
+Accuracy score
 
----
+Most mentioned products
 
+Sentiment charts
 
-## 📄 Final Report
+### 💻 Quick Start
+bash
+# 1. Install requirements
+pip install spacy pandas textblob matplotlib seaborn
+python -m spacy download en_core_web_sm
 
-The complete report includes:
+# 2. Run the analyzer
 
-- ✅ Theory answers (Part 1)
-- ✅ Implementation summaries with visuals (Part 2)
-- ✅ Ethical reflection & debugging notes (Part 3)
-- 📸 Screenshots: Accuracy graphs, NER samples, sentiment examples
+python amazon_reviews_nlp.py
+📊 Sample Output
+https://sample_charts.png
 
+### 🧠 Key Features
+Automatic sample data if no file provided
 
+Simple rule-based sentiment analysis
 
-## 🧰 Tools & Frameworks Used
+Visual reporting with matplotlib
 
-- **Programming Language**: Python 3.x
-- **Development Platforms**: Google Colab, Jupyter Notebook
-- **Libraries & Frameworks**:
-  - `scikit-learn` for classical ML
-  - `tensorflow` for deep learning
-  - `spaCy` for NLP
-  - `matplotlib`, `seaborn` for visualizations
+Export results to CSV
 
----
+### 🚀 Potential Uses
+Track product satisfaction
 
-## 📦 Datasets
+Compare brand reputations
 
-- [Iris Species Dataset](https://www.kaggle.com/uciml/iris)
-- [MNIST Handwritten Digits](https://www.tensorflow.org/datasets/catalog/mnist)
-- [Amazon Product Reviews](https://www.kaggle.com/bittlingmayer/amazonreviews)
-
-
+Find common complaints
