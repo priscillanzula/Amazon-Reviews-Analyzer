@@ -53,7 +53,8 @@ Entities identified: 'Amazon' (ORG), 'Echo' (PRODUCT)
 
   Confusion Matrix and Classification Report: Well-balanced performance across labels.
 
-📷 ![Results](https://github.com/user-attachments/assets/b76e21e9-8516-4b3b-b66c-9fc181f980cd)
+📷 ![Summary](https://github.com/user-attachments/assets/c06e62c2-d9c0-4a50-8f3b-7ee242161ff6)
+
 
 
 ### 🤖 Ethical Reflection
