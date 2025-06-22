@@ -97,7 +97,7 @@ Reflected on responsible AI use in real-world settings
 
 4. Launch the Notebook
 
-  jupyter notebook amazon.ipynb
+   jupyter notebook amazon.ipynb
 
 ### 🙌 Acknowledgments
 Huge thanks to PLP Academy for the mentorship and structured learning.
