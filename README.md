@@ -89,16 +89,15 @@ Reflected on responsible AI use in real-world settings
  ###  How to Run This Project
 1. Clone the Repository
 
-git clone https://github.com/your-username/amazon-reviews-nlp.git
-cd amazon-reviews-nlp
+   git clone https://github.com/priscillanzula/Spacy-pytorch-tensorflow.git
 
 3. Set Up Environment
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Launch the Notebook
 
-jupyter notebook amazon.ipynb
+  jupyter notebook amazon.ipynb
 
 ### 🙌 Acknowledgments
 Huge thanks to PLP Academy for the mentorship and structured learning.
