@@ -51,9 +51,10 @@ Entities identified: 'Amazon' (ORG), 'Echo' (PRODUCT)
 
   Accuracy Achieved: ~93.6%
 
-  Confusion Matrix and Classification Report: Well-balanced performance across labels.
+   Classification Report: Well-balanced performance across labels.
 
-📷 ![Summary](https://github.com/user-attachments/assets/c06e62c2-d9c0-4a50-8f3b-7ee242161ff6)
+📷 ![class_report](https://github.com/user-attachments/assets/368c169c-b501-4aca-9dce-306825dfc235)
+
 
 
 
