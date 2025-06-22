@@ -1,67 +1,111 @@
-# 🧠 Mastering the AI Toolkit – AI Tools & Applications Group Assignment
 
-This repository contains our submission for the **AI Tools & Applications** assignment under the theme **“Mastering the AI Toolkit.”** The project is divided into three main parts:
+### 📚 Overview
+This project is an end-to-end Natural Language Processing (NLP) solution that classifies Amazon product reviews into sentiment categories. Built as part of a PLP Academy assignment, it showcases how to clean and process text data, build a machine learning classifier, apply named entity recognition (NER), and reflect on ethical aspects of NLP systems.
 
-1. **Theoretical Understanding** of AI tools and frameworks.
-2. **Practical Implementation** of classical machine learning, deep learning, and NLP tasks using real datasets.
-3. **Ethical Reflection & AI Debugging**, focusing on responsible AI practices and code optimization.
+###  What I Accomplished
 
-We used a variety of powerful AI frameworks — TensorFlow, PyTorch, Scikit-learn, and spaCy — to showcase our understanding and practical skills.
+Text Classification with Scikit-learn
 
----
+Cleaned and vectorized Amazon product reviews using CountVectorizer
 
-## Group Members & Roles
+Trained a Multinomial Naive Bayes (MultinomialNB) classifier
 
-| Name         | Role                                                                 |
-|--------------|----------------------------------------------------------------------|
-| **CipheredBits (Leader)** | 📌 Group leader, ethical reflection, debugging, final report writing, code review, GitHub management, presentation assembly. |
-| **YewandeMorris**       | 📘 Theoretical understanding (all theory questions + comparative analysis). |
-| **Priscillanzula**         | 🔊 NLP with spaCy – NER and sentiment analysis on Amazon Reviews. |
-| **Doreenmongina**        | 🌸 Classical machine learning with Scikit-learn – Iris species classification. |
-| **golibemartha**          | 🧠 CNN implementation with TensorFlow – MNIST handwritten digit recognition. |
+Achieved ~93.6% accuracy on test data
 
----
+Evaluated model with:
 
-## 📌 Assignment Overview
+📈 Accuracy score
 
-This assignment evaluates our ability to apply, compare, and ethically reflect on various AI tools. Deliverables include:
+🧾 Classification report
 
-- 🧾 A well-commented, functional codebase.
-- 📄 A comprehensive report (PDF).
-- 🎥 A 3-minute presentation video.
+📊 Confusion matrix
 
-All outputs, visuals, and documentation are contained in this repository.
+🧠 Named Entity Recognition with 
 
----
+Used spaCy's pre-trained pipeline to detect named entities in review text
 
+Identified useful entity types like:
 
-## 📄 Final Report
+ORG → Amazon
 
-The complete report includes:
-
-- ✅ Theory answers (Part 1)
-- ✅ Implementation summaries with visuals (Part 2)
-- ✅ Ethical reflection & debugging notes (Part 3)
-- 📸 Screenshots: Accuracy graphs, NER samples, sentiment examples
+PRODUCT → Echo
 
 
 
-## 🧰 Tools & Frameworks Used
+### Tools & Technologies
 
-- **Programming Language**: Python 3.x
-- **Development Platforms**: Google Colab, Jupyter Notebook
-- **Libraries & Frameworks**:
-  - `scikit-learn` for classical ML
-  - `tensorflow` for deep learning
-  - `spaCy` for NLP
-  - `matplotlib`, `seaborn` for visualizations
-
----
-
-## 📦 Datasets
-
-- [Iris Species Dataset](https://www.kaggle.com/uciml/iris)
-- [MNIST Handwritten Digits](https://www.tensorflow.org/datasets/catalog/mnist)
-- [Amazon Product Reviews](https://www.kaggle.com/bittlingmayer/amazonreviews)
+1. Python - Core programming language
+2. Jupyter -	Interactive development environment
+3. Scikit-learn -	Machine learning model building
+4. spaCy	- Advanced NLP (NER, lemmatization)
+5. Matplotlib -	Data visualization
 
 
+### Sample Results
+
+🔍 NER Output
+
+Text: “The Amazon Echo is amazing.”
+
+Entities:
+
+Amazon → ORG
+
+Echo → PRODUCT
+
+🧾 Classification Report
+
+Achieved strong precision and recall across all sentiment classes:
+
+Accuracy: ~93.6%
+
+###  Ethical Reflection
+
+NLP isn't just technical — it's also about responsibility.
+
+Key ethical considerations explored in this project:
+
+- Bias in Language Data
+  
+Training on biased reviews can reinforce stereotypes or misinformation.
+
+- User Privacy
+  
+Respecting user data and ensuring compliance with privacy laws like GDPR.
+
+- Transparency and Trust
+  
+Building models that offer understandable, explainable results.
+
+###  Best Practices Followed
+
+Used a representative dataset
+
+Ensured results were interpretable
+
+Reflected on responsible AI use in real-world settings
+
+ 
+ ###  How to Run This Project
+1. Clone the Repository
+
+   git clone https://github.com/priscillanzula/Spacy-pytorch-tensorflow.git
+
+3. Set Up Environment
+
+   pip install -r requirements.txt
+
+4. Launch the Notebook
+
+   jupyter notebook amazon.ipynb
+
+### 🙌 Acknowledgments
+Huge thanks to PLP Academy for the mentorship and structured learning.
+
+Gratitude to the open-source community for Scikit-learn, spaCy, and Jupyter.
+
+### 🔗 Connect With Me
+
+Let’s talk about ML, NLP, or your next AI project:
+
+📬 LinkedIn https://www.linkedin.com/in/priscilla-nzula/
